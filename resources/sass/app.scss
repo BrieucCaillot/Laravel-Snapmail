@@ -1,0 +1,27 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+// Variables
+@import 'variables';
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+header {
+  background-color: $black;
+  color: $white;
+  padding: 15px 0;
+}
+
+a {
+  color: white !important;
+  text-decoration: none !important;
+
+  &:hover {
+    color: white !important;
+    text-decoration: none !important;
+  }
+}
